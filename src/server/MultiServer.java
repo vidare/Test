@@ -5,9 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.io.*;
 
+import javax.swing.JOptionPane;
+
 public class MultiServer {
 	
     public static void main(String[] args) throws IOException {
+    	
+    	JOptionPane.showMessageDialog(null,
+    		    "Server started");
     	    	
     	List<MultiServerThread> threads = new ArrayList<MultiServerThread>();
         ServerSocket serverSocket = null;
