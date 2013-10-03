@@ -17,7 +17,7 @@ public class MultiServer {
         int port = 10000;
         try {
             serverSocket = new ServerSocket(port);
-            System.out.println("Server up!");
+            System.out.println("Version 1");
         } catch (IOException e) {
             System.err.println("Could not listen on port: " + port + ".");
             System.exit(-1);

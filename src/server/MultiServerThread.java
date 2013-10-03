@@ -20,7 +20,7 @@ public class MultiServerThread extends Thread {
 			BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
 			String inputLine; 
-			String outputLine = "This is version 1";
+			String outputLine = "Welcome client";
 			output.println(outputLine);
 
 			// Listen to the client until the break command appear.
